@@ -124,6 +124,9 @@ public class CreatureCreator:MonoBehaviour
                     }
                 }
             }
+
+
+            //TBD -- two very similar functions. could be merged
             int amount = 2;
             if (rotation == 0 || rotation == 180)
             {
