@@ -1,10 +1,10 @@
 # creaturesim
 This project uses rudiementary neural networks and random number generation to create unique "organisms" that will chase after food. When the creature eats, it reproduces a child with slightly mutated genes, to create a "survival of the fittest" effect.
 # Brain
-The Neural Network is made up of two matrixes per layer -- One of weights, and one of biases. these are randomized during the creation, and inherited with minor changes. The inputs are given in pairs of 9: 3 R, G, and B values from each eyeball (0 if no output). Then, the matrixes are multiplied and outputted as a 3-column 1-row matrix. The program interprets whichever value is greatest for movement. \n
-index [0] = Turn Left \n
-index [1] = Turn Right \n
-index [2] = Move Forward \n
+The Neural Network is made up of two matrixes per layer -- One of weights, and one of biases. these are randomized during the creation, and inherited with minor changes. The inputs are given in pairs of 9: 3 R, G, and B values from each eyeball (0 if no output). Then, the matrixes are multiplied and outputted as a 3-column 1-row matrix. The program interprets whichever value is greatest for movement.
+index [0] = Turn Left
+index [1] = Turn Right
+index [2] = Move Forward 
 # Parts
 During the creation of each organism, they have a randomly chosen set of parts that can affect their chances of survival.
 ## Eye
